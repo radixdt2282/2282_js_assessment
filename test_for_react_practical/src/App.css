@@ -1,0 +1,42 @@
+.container {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    width: "100%";
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .sub-container {
+    background-color: #f6f6fa;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: white;
+  }
+  
+  .vl {
+    border-left: 1px solid gray;
+    height: 15px;
+  }
+  
+  .input-row {
+    flex-direction: row;
+    display: flex;
+    height: 50px;
+    background-color: "white";
+    border: 1px solid gray;
+  }
+  
+  .MuiTextField-root {
+    background: white;
+  }
